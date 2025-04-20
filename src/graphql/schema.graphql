@@ -3,5 +3,5 @@ type User {
   name: String!
 }
 type Query {
-  viewer: User
+  viewer: User!
 }
